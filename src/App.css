@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  width: 30%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+label {
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+.value,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 100px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.productName,
+.productDescription,
+.productValue,
+.valueYes,
+.valueNo {
+  display: block;
+}
+
+form h2 {
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+}
+
+form .addNewProduct, .cadaster {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px auto 0;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+form .addNewProduct:hover, .cadaster:hover {
+  background-color: #777373;
+}
